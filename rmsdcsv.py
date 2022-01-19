@@ -38,6 +38,6 @@ with open('rmsd.csv','w') as fo:
         fo.write(xaxis+","+yaxis+"\n")
         for i in range(len(time_list)):
             fo.write("{},{}\n".format(time_list[i],rmsd_list[i]))
-
+##all is done
 
 
